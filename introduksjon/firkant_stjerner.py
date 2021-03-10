@@ -10,5 +10,5 @@ bredde = int(input("Bredde: "))
 hoyde = int(input("Høyde: "))
 for linje in range(hoyde):
     for tall in range(bredde):
-        print("*", end="")
+        print("!", end="")
     print()
