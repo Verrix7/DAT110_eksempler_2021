@@ -1,6 +1,8 @@
-linje = input("skriv inn første linje tekst")
+
+print("Skriv inn teksten, avslutt med tom linje")
+linje = input("> ")
 resultat = ""
 while linje != "":
     resultat += linje + "\n"
-    linje = input("skriv inn neste linje tekst")
+    linje = input("> ")
 print(resultat)
